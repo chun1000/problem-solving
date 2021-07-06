@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "json.schemas": [
+        
+    ],
+    "code-runner.runInTerminal": true
+    
+}
