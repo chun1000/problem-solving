@@ -23,3 +23,9 @@ my_queue.pop();
 my_queue.push(item);
 ```
 
+### BOJ 7576. Tomato
+
+---
+
+- unordered_set 계열은 pair와 함께 쓸 수 없다.(pair를 해쉬화 할 수 없기 때문)
+
