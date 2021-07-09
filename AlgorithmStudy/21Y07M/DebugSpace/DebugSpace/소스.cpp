@@ -1,38 +1,25 @@
-#include <ios>
 #include <iostream>
-#include <stack>
-#include <string>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
-	cin.tie(NULL);
-	cout.tie(NULL);
-	//ios::sync_with_stdio(false);
+	int n, k;
 
-	int T;
-	stack<char> my_stack;
+	cin >> n >> k;
 
-	cin >> T;
-	string input_line;
-	bool is_valid;
+	vector<vector<int>> vec(n + 1, vector<int>(k + 1, 0));
 
-	for (int i = 0; i < T; i++)
+	for (int i = 0; i <= n; i++)
 	{
-		is_valid = true;
-		cin >> input_line;
-		for (char c : input_line)
+		for (int j = 0; j <= k; j++)
 		{
-			if (c == '(') my_stack.push('(');
-			else if (!my_stack.empty()) my_stack.pop();
-			else is_valid = false;
+			if (i == j || j == 0) vec[i][j] = 1;
+			else vec[i][j] = vec[i - 1][j - 1] + vec[i - 1][j];
 		}
-		if (!my_stack.empty()) is_valid = false;
-
-		if (is_valid) cout << "YES\n";
-		else cout << "NO\n";
 	}
 
+	cout << vec[n][k] << '\n';
 	return 0;
 }
