@@ -29,3 +29,10 @@ my_queue.push(item);
 
 - unordered_set 계열은 pair와 함께 쓸 수 없다.(pair를 해쉬화 할 수 없기 때문)
 
+### BOJ 2581. PrimeNum
+
+----
+
+- 소수를 찾을 때는 sqrt() 이하의 값까지만 찾으면 된다.
+- accumulate(numeric 헤더), min_element(algorithm 헤더) 쓰는 방법.
+- 항상 경계값 조심.
