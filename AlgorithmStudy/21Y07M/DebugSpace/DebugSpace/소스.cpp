@@ -1,25 +1,43 @@
 #include <iostream>
+#include <ios>
 #include <vector>
-
+#include <algorithm>
+#include <string>
 using namespace std;
 
 int main()
 {
-	int n, k;
+	cin.tie(NULL);
+	cout.tie(NULL);
+	//ios::sync_with_stdio(false);
 
-	cin >> n >> k;
+	int N, temp;
+	vector<pair<int, int>> pos;
+	vector<int> ans(N + 1);
 
-	vector<vector<int>> vec(n + 1, vector<int>(k + 1, 0));
-
-	for (int i = 0; i <= n; i++)
+	cin >> N;
+	for (int i = 0; i < N; i++)
 	{
-		for (int j = 0; j <= k; j++)
-		{
-			if (i == j || j == 0) vec[i][j] = 1;
-			else vec[i][j] = vec[i - 1][j - 1] + vec[i - 1][j];
-		}
+		cin >> temp;
+		pos.push_back({ temp, i });
 	}
 
-	cout << vec[n][k] << '\n';
+	sort(pos.begin(), pos.end());
+
+	int a, b, past_val = 2000000000;
+	int idx = 0;
+	for (auto item : pos)
+	{
+		ans[item.second] = idx;
+		if (past_val != item.first) idx++;
+
+		past_val = item.first;
+	}
+
+	for (auto item : ans)
+	{
+		cout << item << " ";
+	}
+
 	return 0;
 }
