@@ -17,3 +17,6 @@
 	그림자 스타일
 </span>
 
+<span style="color: #B9062F;">
+	그림자 스타일
+</span>
