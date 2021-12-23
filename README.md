@@ -17,3 +17,6 @@
 	그림자 스타일
 </span>
 
+테스트 색상.
+
+<span style="color:red">Red Text</span>
