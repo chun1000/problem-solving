@@ -20,3 +20,6 @@
 테스트 색상.
 
 <span style="color:red">Red Text</span>
+<span style="color: #B9062F;">
+	그림자 스타일
+</span>
