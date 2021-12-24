@@ -3,11 +3,10 @@
 
 
 
-<img src="img/1.png" width="auto" height="60pt" align="left"> 
 
-19423. 문제 제목.
+
+| <img src="img/1.png" width="auto" height="60pt" align="center"> | 19234 - 문제 제목 |
+| ------------------------------------------------------------ | ----------------- |
 
 ---
-
-
 
