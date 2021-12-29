@@ -1,3 +1,5 @@
+#브론즈, 파이썬 연습용
+
 import sys
 from collections import defaultdict
 
