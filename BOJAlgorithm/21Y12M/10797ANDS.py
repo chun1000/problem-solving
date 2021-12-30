@@ -1,16 +1,12 @@
-#맵 함수 연습
+#필터 함수 연습
 
 import sys
 read = sys.stdin.readline
 write = sys.stdout.write
 
-T = int(read())
+one_digit = int(read())
+cars = map(int, read().split())
 
-for _ in range(T):
-    num, input_string = read().split()
-    num = int(num)
-    
-    ans = tuple(map(lambda x: x*num, list(input_string)))
-    for item in ans:
-        write(item)
-    write("\n")
+res = tuple(filter(lambda x : x == one_digit, cars))
+
+print(len(res))
