@@ -1,3 +1,5 @@
+#브론즈, 문자열이 아니라 구현 문제 같음.
+
 import sys
 read = sys.stdin.readline
 write = sys.stdout.write
