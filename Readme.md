@@ -58,11 +58,15 @@
 
 - [ ] 
 
+## 9. Java 기초 문법 숙련
+
+- [ ] Java로 아무 문제나 풀어보기.
+
 ## 8. Scala 기초 문법 숙련
 
 - [ ] if문 사용.
 - [ ] while문 사용.
-- [ ] for문의 until과 to 사용.
+- [x] for문의 until이나 to 사용. [코드](./source/others/scala/old/11021.scala)
 - [ ] for문의 zipWithIndex 사용.
 - [ ] while문 사용.
 - [ ] 클래스 사용.
