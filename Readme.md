@@ -66,7 +66,7 @@
 
 - [ ] if문 사용.
 - [ ] while문 사용.
-- [x] for문의 until이나 to 사용. [코드](./source/others/scala/old/11021.scala)
+- [x] for문의 until이나 to 사용. [22/02](./source/others/scala/old/11021.scala)
 - [ ] for문의 zipWithIndex 사용.
 - [ ] while문 사용.
 - [ ] 클래스 사용.
