@@ -72,7 +72,7 @@
 
 ## Scala 기초 문법 숙련
 
-- [x] if문 사용. [22/02](.\source\others\scala\old/10768.scala)
+- [x] if문 사용. [22/02](./source/others/scala/old/10768.scala)
 - [x] for문의 until이나 to 사용. [22/02](./source/others/scala/old/11021.scala)
 - [ ] for문의 zipWithIndex 사용.
 - [ ] while문 사용.
