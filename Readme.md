@@ -1,93 +1,15 @@
-## CPP
+## About
 
-- [ ] C++로 100문제 해결(75/100)
-- [ ] C++로 150문제 해결(75/150)
-- [ ] C++로 200문제 해결(75/200)
-- [ ] C++로 250문제 해결(75/250)
-- [ ] C++로 300문제 해결(75/300)
+These are ps codes written before 2022.
 
-## Python
+## Summary
 
-- [ ] Python으로 200문제 해결(150/200) 
-- [ ] Python으로 250문제 해결(150/250) 
-- [ ] Python으로 300문제 해결(150/300) 
+All numbers as recorded on the PS site(Perhaps this is more than than the number of files on github).
 
-## Java
+- Python: 180
 
-- [ ] Java로 50문제 해결(12/50)
-- [ ] Java로 100문제 해결(12/100)
-- [ ] Java로 150문제 해결(12/150)
-- [ ] Java로 200문제 해결(12/200)
+- C++: 94
 
-## JavaScript
+- Java: 14
 
-- [ ] Javascript로 50문제 해결(0/50)
-- [ ] Javascript로 100문제 해결(0/100)
-
-## TypeScript
-
-- [ ] TypeScript로 50문제 해결(0/50)
-- [ ] TypeScript로 100문제 해결(0/100)
-
-## Kotlin
-
-- [ ] Kotlin으로 50문제 해결(0/50)
-- [ ] Kotlin으로 100문제 해결(0/100)
-
-## Scala
-
-- [ ] Scala로 50문제 해결(3/50)
-- [ ] Scala로 100문제 해결(3/100)
-
-## C-Sharp
-
-- [ ] C#으로 25문제 해결(0/25)
-
-## C-lang
-
-- [ ] C로 25문제 해결(0/25)
-
-## 알고리즘 숙련(C)
-
-- [ ] 스택 구현.
-- [ ] 큐 구현.
-- [ ] 일반 리스트 구현.
-- [ ] 더블리 링크드 리스트 구현.
-- [ ] 힙 구현.
-- [ ] 디스조인트 셋 구현.
-- [ ] 크루스칼 알고리즘 구현.
-- [ ] 프림 알고리즘 구현.
-- [ ] 다익스트라 알고리즘 구현.
-- [ ] 머지 소트 구현.
-- [ ] 퀵 소트 구현.
-- [ ] 힙 소트 구현.
-- [ ] 해싱 구현.
-- [ ] 백트래킹 구현.
-
-## 알고리즘 숙련(CPP)
-
-
-
-## 알고리즘 숙련(Python)
-
-
-
-## Python 추가 숙련
-
-## Java 기초 문법 숙련
-
-- [ ] Java로 아무 문제나 풀어보기.
-
-## Scala 기초 문법 숙련
-
-- [x] if문 사용. [22/02](./source/scala/old/10768.scala)
-- [x] for문의 until이나 to 사용. [22/02](./source/scala/old/11021.scala)
-- [ ] for문의 zipWithIndex 사용.
-- [ ] while문 사용.
-- [ ] 클래스 사용.
-- [ ] 클래스의 상속 사용.
-- [ ] 트레이트 사용.
-- [ ] 함수 내부에서 함수 응용.
-- [ ] Partially applied function 사용.
-- [ ] implicit 키워드 사용.
-- [ ] 익명 함수 사용.
+- Scala: 18
