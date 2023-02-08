@@ -1,10 +1,10 @@
 ## About
 
-These are ps codes written before 2022.
+2022년 전에 풀었던 알고리즘 문제들입니다.
 
 ## Summary
 
-All numbers as recorded on the PS site(Perhaps this is more than than the number of files on github).
+해결했던 모든 문제의 수를 PS 사이트를 기반으로 가져오면 아래와 같습니다.
 
 - Python: 180
 
