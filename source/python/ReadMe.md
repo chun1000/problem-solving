@@ -64,6 +64,8 @@
 
 ## C-2. 퇴각검색(Backtracking)
 
+- [x] 수열 또는 조합. [백준 13650번](./2023-02/BOJ-13650.py)
+
 - [ ] N-Queens problem.
 
 - [ ] 부분집합의 합.
@@ -71,8 +73,6 @@
 - [ ] 그래프 칠하기.
 
 - [ ] 해밀턴 회로 문제(The Hamiltonian Circuits Problem).
-
-- [ ] 0-1 Knapsack Problem.
 
 ## C-3. BFS와 DFS
 
