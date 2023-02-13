@@ -1,25 +1,17 @@
 #include <iostream>
-#include <ios>
-#include <vector>
-#include <cmath>
-#include <string>
-#include <set>
+#include <array>
+#include <algorithm>
 
 using namespace std;
-using ll = long long;
-
-void use_boj_io()
-{
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-}
-// 백준 전용 입출력 속도 개선
 
 int main()
 {
-    vector<int> a {1, 2, 3, 4, 5};
-    int b = 3;
-    cout << a.at(0) << endl;
+    array<int, 10> a {0, };
+    fill_n(a.begin(), 2, 5);
+    for(const auto& item: a) {
+        cout << item << ", ";
+    }
+    cout <<endl;
+    
     return 0;
 }
