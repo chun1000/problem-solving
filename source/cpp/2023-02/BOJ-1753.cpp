@@ -3,6 +3,7 @@
 #include <vector>
 #include <queue>
 #include <tuple>
+#include <climits>
 
 using namespace std;
 using ll = long long;
@@ -16,7 +17,7 @@ void use_boj_io() {
 
 int main() {
     use_boj_io();
-    constexpr int INF = 1e9;
+    constexpr int INF = INT_MAX;
     int V, E; cin >> V >> E;
     int K; cin >> K;
     
@@ -48,12 +49,10 @@ int main() {
     }
 
     for(int i = 1; i <= V; ++i) {
-        if(d[i] < INF) cout << d[i] << '\n';
+        if(d[i] != INF) cout << d[i] << '\n';
         else cout << "INF\n";
     }
 
     cout <<endl;
     return 0;
 }
-
-//코드 정리하고 다익스트라 기본 리스트에 넣기.

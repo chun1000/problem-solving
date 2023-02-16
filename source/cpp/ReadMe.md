@@ -78,11 +78,11 @@
 
 - [ ] 리스트를 이용한 그래프 구현.
 
-- [ ] 프림 알고리즘(Prim's Algorithm). 1197번
+- [ ] 프림 알고리즘(Prim's Algorithm). [1197번](./2023-02/BOJ-1197.cpp)
 
 - [ ] 크루스칼 알고리즘(Kruskal's Algorithm).
 
-- [ ] 다익스트라 알고리즘(Dijkstra's Algorithm). 
+- [ ] 다익스트라 알고리즘(Dijkstra's Algorithm). [15649번](./2023-02/BOJ-15649.cpp)
 
 - [ ] 솔린 알고리즘(Solin's Algorithm).
 
