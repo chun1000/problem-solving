@@ -1,8 +1,6 @@
-```cpp
 #include <iostream>
 #include <ios>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -13,20 +11,12 @@ void UseFastIO() {
 }
 // 백준 전용 입출력 속도 개선
 
-//입력 변수
-
-void Input() {
-
-}
-
-void Solve() {
-
-}
 
 int main() {
     UseFastIO();
-    Input();
-    Solve();
+    int L, A, B, C, D;
+    cin >> L >> A >> B >> C >> D;
+
+    cout << L - max((A-1)/C+1, (B-1)/D+1) << endl;
     return 0;
 }
-```
