@@ -1,6 +1,8 @@
 ```java
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -19,14 +21,16 @@ public class Main {
         K = Integer.parseInt(st.nextToken());
     }
 
-    static void solve() {
-        bw.flush();
-        bw.close();
+    static void solve() throws Exception {
+        bw.write("Hello World!");
     }
 
     public static void main(String[] args) throws Exception {
         input();
         solve();
+        bw.flush();
+        bw.close();
+        br.close();
     }
 }
 ```
